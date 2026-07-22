@@ -1,17 +1,17 @@
 # Fashion Recommendation System
 
-## 📂 Dataset (44,000+ fashion outfit images)
+## 📌 Dataset (44,000+ fashion outfit images)
 
 https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
 
 
-## ⚙️ How It Works
+## 🚀 How It Works
 
 - Extract **2048-dimensional feature embeddings** for all dataset images using a pretrained **ResNet50** model, processing images in batches of **128** for efficient preprocessing.
 - Generate a feature embedding for the user-uploaded image using the same **ResNet50** model.
 - Perform fast similarity search using **FAISS** on normalized embeddings to recommend the most visually similar outfits from the dataset.
 
-## Project Architecture
+## 🛠️ Recommendation Pipeline
                          Fashion Product Dataset
                                   │
                                   ▼
