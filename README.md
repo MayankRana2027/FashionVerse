@@ -1,5 +1,5 @@
 # FashionVerse
-FashionVerse is a **fashion recommendation system** that accepts a user-uploaded image and recommends the most similar images of clothing items.
+FashionVerse is an **AI-powered fashion website** that accepts a user-uploaded image and searches for the most visually similar clothing items.
 
 ## 📌 Dataset (44,000+ fashion outfit images)
 
