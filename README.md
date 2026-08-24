@@ -10,9 +10,9 @@ https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
 
 - Extract **2048-dimensional feature embeddings** for all dataset images using a pretrained **ResNet50** model, processing images in batches of **128** for efficient preprocessing.
 - Generate a feature embedding for the user-uploaded image using the same **ResNet50** model.
-- Perform fast similarity search using **FAISS** on normalized embeddings to recommend the most visually similar outfits from the dataset.
+- Perform fast similarity search using **FAISS** on normalized embeddings to retrieve the most visually similar outfits from the dataset.
 
-## 🛠️ Recommendation Pipeline
+## 🛠️ Pipeline
                          Fashion Product Dataset
                                   │
                                   ▼
