@@ -1,0 +1,71 @@
+.upload-section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:25px;
+}
+
+.upload-box{
+    width:100%;
+    max-width:650px;
+
+    background:#242424;
+
+    border:2px dashed #005E54;
+    border-radius:18px;
+
+    padding:35px 30px;
+
+    text-align:center;
+
+    cursor:pointer;
+
+    transition:background .4s cubic-bezier(.22, 1, .36, 1),
+               border-color .4s cubic-bezier(.22, 1, .36, 1),
+               transform .4s cubic-bezier(.22, 1, .36, 1);
+
+    box-shadow:0 8px 30px rgba(0,0,0,.35);
+}
+
+.upload-box:hover{
+    background:#2C2C2C;
+    border-color:#007267;
+    transform:translateY(-2px);
+}
+
+button{
+    background:#005E54;
+    color:#F4F4F4;
+
+    border:none;
+    border-radius:12px;
+
+    padding:15px 40px;
+    box-sizing:border-box;
+
+    font-size:16px;
+    font-weight:600;
+
+    cursor:pointer;
+    transition:background .4s cubic-bezier(.22, 1, .36, 1),
+               transform .4s cubic-bezier(.22, 1, .36, 1);
+
+    width:280px;        /* fixed, not min-width */
+    flex-shrink:0;      /* stop a flex parent from shrinking it */
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    white-space:nowrap;
+}
+
+button:hover{
+    background:#007267;
+    transform:translateY(-3px);
+}
+
+button:disabled{
+    opacity:.55;
+    cursor:not-allowed;
+    transform:none;
+}
